@@ -10,3 +10,7 @@ export interface Stock {
   id: number;
   amount: number;
 }
+
+export interface ProductFormatted extends Product {
+  priceFormatted: string;
+}
